@@ -37,33 +37,36 @@ Note: Use Python version: 3.8.5
 ```bash
 git clone https://github.com/yourusername/Virtual-Mouse-Using-Hand-Gestures-AI-Mouse-Controller.git
 
-Step 1: Create a Conda environment:
+2. **Step 1: Create a Conda environment:**
 
-```bash
-Copy code
-conda create --name proton python=3.8.5
-Step 2: Activate the environment:
+   ```bash
+   conda create --name proton python=3.8.5
+   ```
 
-```bash
-Copy code
-conda activate proton
-Step 3: Install the required dependencies:
+3. **Step 2: Activate the environment:**
 
-```bash
-Copy code
-pip install -r requirements.txt
-Step 4: Install additional packages:
+   ```bash
+   conda activate proton
+   ```
 
-```bash
-Copy code
-conda install pyaudio
-conda install pywin32
-Step 5: Navigate to the project’s src folder:
+4. **Step 3: Install the required dependencies:**
 
-```bash
-Copy code
-cd path_to_project/src
-Just replace yourusername with your actual GitHub username, and your users will be able to clone your repository correctly.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-vbnet
-Copy code
+5. **Step 4: Install additional packages:**
+
+   ```bash
+   conda install pyaudio
+   conda install pywin32
+   ```
+
+6. **Step 5: Navigate to the project’s `src` folder:**
+
+   ```bash
+   cd path_to_project/src
+   ```
+
+Just replace `yourusername` with your actual GitHub username, and your users will be able to clone your repository correctly.
+```
